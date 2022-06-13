@@ -331,6 +331,6 @@ project.css
 project.min.css
 vendors.js
 *.min.js
-
+pg_data
 .envs/*
 !.envs/.local/

@@ -22,8 +22,8 @@ Geo's Hub
     $ curl -X GET http://localhost:8000/api/services/<slug>/
 
 
-### Geo hub diagram:
-- Please check this file: geohub_diagram.png
+### Geo hub diagram and solution diagram:
+- Please check these file: geohub_diagram.png, solution diagram.png
 
 
 

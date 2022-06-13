@@ -9,7 +9,7 @@ Geo's Hub
 - Then run this command to run all services:
 
         $ docker-compose -f local.yml up -d
-- Run this command to store database:
+- Run this command to restore database:
 
         $ docker-compose -f local.yml exec postgres restore backup_2022_06_13T01_59_33.sql.gz
 

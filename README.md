@@ -9,8 +9,12 @@ Geo's Hub
 - Then run this command to run all services:
 
         $ docker-compose -f local.yml up -d
-- Open browser with [this link](http://localhost:8080/)
+- Run this command to store database:
 
+        $ docker-compose -f local.yml exec postgres restore backup_2022_06_13T01_59_33.sql.gz
+
+- Open browser with [this link](http://localhost:8080/)
+- Add more services go to http://localhost:8000/admin/services/product/ (username: hongphi, pass: admin)
 ### Running tests with pytest
 
     $ docker-compose -f local.yml exec django pytest

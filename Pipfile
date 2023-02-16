@@ -40,7 +40,7 @@ django-coverage-plugin = "==2.0.3"
 pytest-django = "==4.5.2"
 Pillow = "==9.1.1"
 Django = "==3.2.13"
-Werkzeug = {version = "==2.0.3", extras = ["watchdog"]}
+Werkzeug = {version = "==2.2.3", extras = ["watchdog"]}
 Sphinx = "==5.0.1"
 django-autoslug = "*"
 
